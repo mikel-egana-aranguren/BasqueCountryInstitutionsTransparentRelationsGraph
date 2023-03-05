@@ -1,3 +1,3 @@
-# Basque Country Institutions Transparent Relations
+# Basque Country Institutions Transparent Relations Graph
 
-Transparent relations involving Basque Country institutions
+Knowledge Graph for Transparent relations involving Basque Country institutions
