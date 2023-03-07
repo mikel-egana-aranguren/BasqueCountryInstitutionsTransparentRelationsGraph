@@ -19,6 +19,7 @@ output_graph = ConjunctiveGraph(identifier="https://data.ehu.eus/bcitr/graph")
 base_uri = 'https://data.ehu.eus/bcitr/'
 
 schema_corporation = 'https://schema.org/Corporation'
+schema_identifier = 'https://schema.org/identifier'
 
 for row in input_file:
     id = row['Número inscripción']
@@ -27,6 +28,6 @@ for row in input_file:
     if id != '':
         output_graph.add((URIRef(company_uri + id), RDFS.label, Literal(name, lang='es')))
         output_graph.add((URIRef(company_uri + id), RDF.type, URIRef(schema_corporation)))
+        output_graph.add((URIRef(company_uri + id), URIRef(schema_identifier), Literal(id)))
 
 output_graph.serialize(destination='Empresas-2023-03-05.nq', format='nquads', encoding="utf-8")
-output_graph.serialize(destination='Empresas-2023-03-05.nt', format='nt', encoding="utf-8")

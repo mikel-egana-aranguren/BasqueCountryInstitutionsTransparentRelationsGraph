@@ -1,0 +1,34 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+PREFIX void: <http://rdfs.org/ns/void#> 
+PREFIX prov: <http://www.w3.org/ns/prov#> 
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#> 
+PREFIX dc: <http://purl.org/dc/terms/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX schema: <http://schema.org/> 
+PREFIX cc: <http://creativecommons.org/ns#> 
+
+<https://data.ehu.eus/distribution/bcitr> a dcat:Distribution, void:Dataset, schema:Distribution ;
+    sd:namedGraph <https://data.ehu.eus/bcitr/graph> ;
+    void:sparqlEndpoint <http://localhost:9999/blazegraph/sparql> ;
+    void:rootResource <https://data.ehu.eus/bcitr/company/5466> ;
+    void:exampleResource <https://data.ehu.eus/bcitr/company/5466> ;
+    void:vocabulary <https://w3id.org/TRO> ;
+    void:vocabulary <https://schema.org> ;
+    dc:modified "2023-03-05"^^xsd:date ;
+    dc:License <http://creativecommons.org/licenses/MIT/> ;
+    dc:title "Registro de licitadores y empresas clasificadas"@es .
+
+<https://data.ehu.eus/bcitr/graph> prov:wasGeneratedBy [
+    a prov:Activity ;
+    prov:wasAssociatedWith  <https://github.com/mikel-egana-aranguren/BasqueCountryInstitutionsTransparentRelationsGraph/tree/main/RegistroLicitadoresYEmpresasClasificadas> ;
+] .
+
+<http://creativecommons.org/licenses/MIT/>
+  a cc:License ;
+  cc:permits cc:Distribution, cc:Reproduction, cc:DerivativeWorks ;
+  cc:licenseClass <http://creativecommons.org/license/software> ;
+  cc:requires cc:Notice ;
+  cc:legalcode <http://opensource.org/licenses/mit-license.php> .
