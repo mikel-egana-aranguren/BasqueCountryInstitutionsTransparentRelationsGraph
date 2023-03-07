@@ -7,13 +7,14 @@
 ##################################################
 
 import csv
-from rdflib import Graph, Literal, Namespace, URIRef
+# from rdflib import Graph, Literal, Namespace, URIRef
+from rdflib import ConjunctiveGraph, Literal, Namespace, URIRef
 
 from rdflib.namespace import OWL, RDF, RDFS, SKOS, XSD, DC, DCTERMS, VOID
 
-input_file = csv.DictReader(open("../../data/RegistroLicitadoresYEmpresasClasificadas/Empresas-2023-03-05.csv"))
+input_file = csv.DictReader(open("Empresas-2023-03-05.csv"))
 
-output_graph = Graph()
+output_graph = ConjunctiveGraph(identifier="https://data.ehu.eus/bcitr/graph")
 
 base_uri = 'https://data.ehu.eus/bcitr/'
 
@@ -27,4 +28,5 @@ for row in input_file:
         output_graph.add((URIRef(company_uri + id), RDFS.label, Literal(name, lang='es')))
         output_graph.add((URIRef(company_uri + id), RDF.type, URIRef(schema_corporation)))
 
+output_graph.serialize(destination='Empresas-2023-03-05.nq', format='nquads', encoding="utf-8")
 output_graph.serialize(destination='Empresas-2023-03-05.nt', format='nt', encoding="utf-8")
