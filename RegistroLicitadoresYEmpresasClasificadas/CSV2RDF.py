@@ -14,7 +14,7 @@ from rdflib.namespace import OWL, RDF, RDFS, SKOS, XSD, DC, DCTERMS, VOID
 
 input_file = csv.DictReader(open("Empresas-2023-03-05.csv"))
 
-output_graph = ConjunctiveGraph(identifier="https://data.ehu.eus/bcitr/graph")
+output_graph = ConjunctiveGraph(identifier="https://data.ehu.eus/bcitr/registrolicitadores/graph")
 
 base_uri = 'https://data.ehu.eus/bcitr/'
 

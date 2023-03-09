@@ -10,8 +10,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX schema: <http://schema.org/> 
 PREFIX cc: <http://creativecommons.org/ns#> 
 
-<https://data.ehu.eus/distribution/bcitr> a dcat:Distribution, void:Dataset, schema:Distribution ;
-    sd:namedGraph <https://data.ehu.eus/bcitr/graph> ;
+<https://data.ehu.eus/distribution/bcitr/registrolicitadores> a dcat:Distribution, void:Dataset, schema:Distribution ;
+    sd:namedGraph <https://data.ehu.eus/bcitr/registrolicitadores/graph> ;
     void:sparqlEndpoint <http://localhost:9999/blazegraph/sparql> ;
     void:rootResource <https://data.ehu.eus/bcitr/company/5466> ;
     void:exampleResource <https://data.ehu.eus/bcitr/company/5466> ;
@@ -21,7 +21,7 @@ PREFIX cc: <http://creativecommons.org/ns#>
     dc:License <http://creativecommons.org/licenses/MIT/> ;
     dc:title "Registro de licitadores y empresas clasificadas"@es .
 
-<https://data.ehu.eus/bcitr/graph> prov:wasGeneratedBy [
+<https://data.ehu.eus/bcitr/registrolicitadores/graph> prov:wasGeneratedBy [
     a prov:Activity ;
     prov:wasAssociatedWith  <https://github.com/mikel-egana-aranguren/BasqueCountryInstitutionsTransparentRelationsGraph/tree/main/RegistroLicitadoresYEmpresasClasificadas> ;
 ] .
