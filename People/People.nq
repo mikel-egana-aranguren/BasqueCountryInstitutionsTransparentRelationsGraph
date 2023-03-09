@@ -1,0 +1,5 @@
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/ns/person#name> "Asier Atutxa Zalduegi" <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://ehu.eus/tro#profile_url> "https://www.linkedin.com/in/asier-atutxa-zalduegi-0b49b517a/" <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/2000/01/rdf-schema#label> "Asier Atutxa Zalduegi" <https://data.ehu.eus/bcitr/people/graph> .
+
