@@ -7,7 +7,7 @@
   * https://www.contratacion.euskadi.eus/webkpe00-kperoc/es/k60aSolicitudesWar/inicioBusqEmpresas.do
   * "Busqueda de empresas", "Informes": `Empresas-2023-03-05.pdf`
   * https://www.adobe.com/acrobat/online/pdf-to-excel.html: `Empresas-2023-03-05.csv`
-* Metadata: `Empresas-2023-03-05-metadata.ttl`
+* Metadata: `Empresas-2023-03-05-metadata.ttl` (Produced manually)
 
 ## Convert to RDF Graph
 
@@ -21,6 +21,5 @@
 
 ## Store Graph
 
-* Blazegraph: `java -server -Xmx4g -jar blazegraph.jar`
-* Upload `Empresas-2023-03-05.nq`
-* Upload `Empresas-2023-03-05-metadata.ttl`
+* Upload `Empresas-2023-03-05.nq` (Data)
+* Upload `Empresas-2023-03-05-metadata.ttl` (Metadata)

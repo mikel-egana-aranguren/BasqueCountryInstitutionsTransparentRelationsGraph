@@ -65,7 +65,7 @@ for row in input_file:
     output_graph.add((URIRef(role_def_uri), URIRef("http://ehu.eus/tro#with_evidence"), URIRef(evidence)))
 
     # TODO: generalizar
-    output_graph.add((URIRef(evidence), RDF.type, URIRef("http://ehu.eus/tro#PublicProfile")))
+    output_graph.add((URIRef(evidence), RDF.type, URIRef("https://schema.org/NewsArticle")))
     output_graph.add((URIRef(evidence), URIRef("http://ehu.eus/tro#url"), Literal(evidence)))
 
 

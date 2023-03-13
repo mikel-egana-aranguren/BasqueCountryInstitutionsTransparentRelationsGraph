@@ -4,7 +4,7 @@
 
 * Name: People
 * Source: Various sources, collected manually
-* Metadata: `People.ttl`
+* Metadata: `People.ttl` (Produced manually)
 
 ## Convert to RDF Graph
 
@@ -19,6 +19,5 @@
 
 ## Store Graph
 
-* Blazegraph: `java -server -Xmx4g -jar blazegraph.jar`
-* Upload `People.nq`
-* Upload `People.ttl`
+* Upload `People.nq` (Data)
+* Upload `People.ttl` (Metadata)
