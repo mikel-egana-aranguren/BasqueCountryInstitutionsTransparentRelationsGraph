@@ -1,6 +1,8 @@
 # Basque Country Institutions Transparent Relations Graph
 
-RDF Knowledge Graph for Transparent relations involving Basque Country institutions.
+RDF Knowledge Graph for Transparent relations involving Basque Country institutions. The aim of this project is to build a graph to integrate information about entities and individuals that might have a conflict of interest, in order to analyse such information.
+
+DISCLAIMER: This graph integrates only publicly available information from legitimate sources (Open Data portals, news, etc). Therefore the inclusion of a person or entity in this graph is not intended to suggest or imply that they have engaged in illegal or improper conduct.
 
 ## Data sources
 
