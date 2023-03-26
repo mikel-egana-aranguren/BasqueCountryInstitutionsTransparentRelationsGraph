@@ -1,13 +1,13 @@
-<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/2000/01/rdf-schema#label> "Asier Atutxa Zalduegi" <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://ehu.eus/tro#profile_url> "https://www.linkedin.com/in/asier-atutxa-zalduegi-0b49b517a/" <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager-2007-10-01-2009-09-01-arkigest-estudioa-s-l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ehu.eus/tro#Manager> <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://ehu.eus/tro#has_role> <https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#with_evidence> <https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos> <https://data.ehu.eus/bcitr/people/graph> .
 <https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/ns/person#name> "Asier Atutxa Zalduegi" <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://ehu.eus/tro#has_role> <https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager-2007-10-01-2009-09-01-arkigest-estudioa-s-l> <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager-2007-10-01-2009-09-01-arkigest-estudioa-s-l> <http://ehu.eus/tro#end_date> "2009-09-01" <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager-2007-10-01-2009-09-01-arkigest-estudioa-s-l> <http://ehu.eus/tro#start_date> "2007-10-01" <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/2000/01/rdf-schema#label> "Asier Atutxa Zalduegi" <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://ehu.eus/tro#profile_url> "" <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#in_entity> <https://data.ehu.eus/bcitr/company/5466> <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#end_date> "" <https://data.ehu.eus/bcitr/people/graph> .
 <https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos> <http://ehu.eus/tro#url> "https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos" <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <https://data.ehu.eus/bcitr/people/graph> .
 <https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/NewsArticle> <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager-2007-10-01-2009-09-01-arkigest-estudioa-s-l> <http://ehu.eus/tro#with_evidence> <https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos> <https://data.ehu.eus/bcitr/people/graph> .
-<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager-2007-10-01-2009-09-01-arkigest-estudioa-s-l> <http://ehu.eus/tro#in_entity> <https://data.ehu.eus/bcitr/company/5466> <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#start_date> "" <https://data.ehu.eus/bcitr/people/graph> .
+<https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ehu.eus/tro#Manager> <https://data.ehu.eus/bcitr/people/graph> .
 
