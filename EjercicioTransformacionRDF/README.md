@@ -55,11 +55,27 @@ Y debería devolver los mismos datos.
 
 ### Manual (Recomendado)
 
+El método manual es el mismo que el del ejemplo. Sólo sirve para conjuntos pequeños de datos pero es con el que más se aprende.
+
 ### Con Python (Opcional)
+
+Escribir un pequeño programa que haga la transformación es un método muy flexible y fácil de mantener y reutilizar. Existen librerías para Python (RDFLib), Java (RDF4J), Javascript (RDFJS) ...
+
+Hay un ejemplo con Python y RDFLib en este mismo repositorio: `RegistroLicitadoresYEmpresasClasificadas/CSV2RDF.py`.
 
 ### Con herramientas declarativas (Opcional)
 
+Existen herramientas en las que se pueden declarar las reglas para transformar datos a RDF, y un programa interpreta las reglas y las ejecuta. Es un método parecido al anterior, pero en proyectos grandes es mejor usarlo ya que el código es más fácil de entender y mantener, aunque tienen cierta curva de aprendizaje. Algunos ejemplos:
+
+* [YARRRML](https://rml.io/yarrrml/) (Se usa como base para los servicios de Google de reconciliación: https://cloud.google.com/enterprise-knowledge-graph/docs/entity-reconciliation-console).
+* [Morph-KGC](https://github.com/morph-kgc/morph-kgc).
+
 ### Con herramientas gráficas (Opcional)
+
+Las herramientas gráficas son las más fáciles de usar. Algunos ejemplos:
+
+* [Open Refine](https://openrefine.org/) con [extensión RDF](https://github.com/AtesComp/rdf-transform).
+* [OntoRefine](https://graphdb.ontotext.com/documentation/9.5/standard/loading-data-using-ontorefine.html).
 
 ## Ejercicio 1
 
