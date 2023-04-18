@@ -55,7 +55,7 @@ Y debería devolver los mismos datos.
 
 ### Manual (Recomendado)
 
-El método manual es el mismo que el del ejemplo. Sólo sirve para conjuntos pequeños de datos pero es con el que más se aprende.
+El método manual es el mismo que el del ejemplo. Sólo sirve para conjuntos pequeños de datos pero es con el que más se aprende. Para los que usen VS Code, existe una extensión muy útil (https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data)
 
 ### Con Python (Opcional)
 
