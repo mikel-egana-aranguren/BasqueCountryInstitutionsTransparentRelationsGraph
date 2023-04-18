@@ -2,9 +2,9 @@
 
 ## Introducción
 
-El objetivo de este ejercicio es transformar unos datos inventados, en formato CSV, a un grafo de conocimiento RDF, para familiarizarse con el proceso y entender el modelo de datos. A coninuación se muestra un primer ejemplo muy abstracto (Proceso general) con diferentes métodos que se pueden usar para transformar los datos a RDF, siendo el método manual el más recomendado para entender bien el modelo de datos RDF. Después se ofrecen los ejercicios propiamente dichos (Ejercicio 1, ...) que exploran diferentes áreas del modelado de datos en RDF. 
+El objetivo de este ejercicio es transformar unos datos inventados, en formato CSV, a un grafo de conocimiento RDF, para familiarizarse con el proceso y entender el modelo de datos. A coninuación se muestra un primer ejemplo muy abstracto (Proceso general) con diferentes métodos que se pueden usar para transformar los datos a RDF, siendo el método manual el más recomendado para entender bien el modelo de datos RDF. Después se ofrecen los ejercicios propiamente dichos (Ejercicio 1, ...) que exploran diferentes áreas del modelado de datos en RDF y su tecnología, de más fácil a más difícil.
 
-## Proceso general (Ejemplo)
+## Proceso general
 
 Supongamos el siguiente CSV con las columnas "c1", "c2" y "c3" y dos líneas de valores:
 
@@ -72,19 +72,48 @@ Existen herramientas en las que se pueden declarar las reglas para transformar d
 
 ### Con herramientas gráficas (Opcional)
 
-Las herramientas gráficas son las más fáciles de usar. Algunos ejemplos:
+Las herramientas gráficas son las más fáciles de usar, pero en grandes proyectos no se suelen usar. Algunos ejemplos:
 
-* [Open Refine](https://openrefine.org/) con [extensión RDF](https://github.com/AtesComp/rdf-transform).
+* [Open Refine](https://openrefine.org/) con [extensión RDF](https://github.com/AtesComp/rdf-transform). Open Refine ofrece un servicio de [Reconciliacion](https://openrefine.org/docs/manual/reconciling).
 * [OntoRefine](https://graphdb.ontotext.com/documentation/9.5/standard/loading-data-using-ontorefine.html).
 
 ## Ejercicio 1
 
+Convierte los datos del arhivo CSV `ej1.csv` a RDF siguiendo el método manual.
+
 ## Ejercicio 2
+
+Aunque te puedes inventar todas la relaciones en los predicados, conviene usar algunas más estándares, para aumentar la interoperabilidad. Repasa el ejercicio 1 inténtando usar las siguiente relaciones (Primero tendrás que buscar información sobre ellas y entender qué significan):
+
+* http://www.w3.org/1999/02/22-rdf-syntax-ns#type (rdf:type). PISTA: mira las bolas naranjas de la transparencia 16.
+* http://www.w3.org/2000/01/rdf-schema#label (rdfs:label). PISTA: aunque las entidades se identifican con URIs, también tienen nombres en diferentes idiomas.
+* Cualquier relación que encuentres en el servicio [LOV](https://lov.linkeddata.es/dataset/lov) que te parezca adecuada.
+* Relaciones de [Schema](https://schema.org/).
+
+También conviene usar entidades de otros grafos en la posición del objeto de la tripleta, creando así enlaces que mejoran el descubrimiento de datos nuevos. ¿Cómo añadirías el concepto "Bilbo" de [Wikidata](https://www.wikidata.org/) en tu grafo?
 
 ## Ejercicio 3
 
+Añade los datos del archivo `ej3.csv` al grafo, de tal manera que los datos de ambos CSVs queden integrados en un solo grafo.
+
 ## Ejercicio 4
+
+Añade los datos del archivo `ej4.csv` al grafo, de tal manera que los datos de los tres CSVs queden integrados en un solo grafo.
 
 ## Ejercicio 5
 
+Haz una consulta SPARQL contra Blazegraph que te devuelva todos los datos sobre mikel.
+
+Haz una consulta SPARQL contra Blazegraph que te devuelva las personas que trabajan como profesor y viven en cordoba.
+
 ## Ejercicio 6
+
+Haz una consulta SPARQL que combine los datos de tu grafo con los que contiene Wikidata sobre Bilbo (PISTA: "SERVICE").
+
+## Ejercicio 7
+
+La sintaxis [NQ](https://www.w3.org/TR/n-quads/) se usa para codificar [Named Graphs](https://www.oxfordsemantic.tech/fundamentals/what-is-a-named-graph). ¿Como codificarías los datos de los tres CSVs en tres named graphs (PISTA: aparte de usar NQ, en Blazegraph hay que crear un "namespace" nuevo, con la opción "quads" activada, y ponerlo en uso ("use"))?¿Qué significa usar Named Graphs con respecto a la integración de datos?
+
+## Ejercicio 8
+
+Puedes usar el archivo `docker-compose.yml` como guía para crear un servidor Linked Data.
