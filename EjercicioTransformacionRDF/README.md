@@ -1,4 +1,4 @@
-# Ejercicion transformación de datos CSV a RDF
+# Ejercicio transformación de datos CSV a RDF
 
 ## Introducción
 
@@ -55,11 +55,11 @@ Y debería devolver los mismos datos.
 
 ### Manual (Recomendado)
 
-El método manual es el mismo que el del ejemplo. Sólo sirve para conjuntos pequeños de datos pero es con el que más se aprende. Para los que usen VS Code, existe una extensión muy útil (https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data)
+El método manual es el mismo que el del ejemplo. Sólo sirve para conjuntos pequeños de datos pero es con el que más se aprende. Para los que usen VS Code, existe una [extensión muy útil]((https://marketplace.visualstudio.com/items?itemName=Elsevier.linked-data)).
 
 ### Con Python (Opcional)
 
-Escribir un pequeño programa que haga la transformación es un método muy flexible y fácil de mantener y reutilizar. Existen librerías para Python (RDFLib), Java (RDF4J), Javascript (RDFJS) ...
+Escribir un pequeño programa que haga la transformación es un método muy flexible y fácil de mantener y reutilizar. Existen librerías para Python (RDFLib), Java (RDF4J), Javascript (RDFJS), ...
 
 Hay un ejemplo con Python y RDFLib en este mismo repositorio: `RegistroLicitadoresYEmpresasClasificadas/CSV2RDF.py`.
 
@@ -67,12 +67,12 @@ Hay un ejemplo con Python y RDFLib en este mismo repositorio: `RegistroLicitador
 
 Existen herramientas en las que se pueden declarar las reglas para transformar datos a RDF, y un programa interpreta las reglas y las ejecuta. Es un método parecido al anterior, pero en proyectos grandes es mejor usarlo ya que el código es más fácil de entender y mantener, aunque tienen cierta curva de aprendizaje. Algunos ejemplos:
 
-* [YARRRML](https://rml.io/yarrrml/) (Se usa como base para los servicios de Google de reconciliación: https://cloud.google.com/enterprise-knowledge-graph/docs/entity-reconciliation-console).
+* [YARRRML](https://rml.io/yarrrml/) (Se usa como base para los servicios de [Google de reconciliación](https://cloud.google.com/enterprise-knowledge-graph/docs/entity-reconciliation-console)).
 * [Morph-KGC](https://github.com/morph-kgc/morph-kgc).
 
 ### Con herramientas gráficas (Opcional)
 
-Las herramientas gráficas son las más fáciles de usar, pero en grandes proyectos no se suelen usar. Algunos ejemplos:
+Las herramientas gráficas son las más fáciles de usar, pero en grandes proyectos no son útiles. Algunos ejemplos:
 
 * [Open Refine](https://openrefine.org/) con [extensión RDF](https://github.com/AtesComp/rdf-transform). Open Refine ofrece un servicio de [Reconciliacion](https://openrefine.org/docs/manual/reconciling).
 * [OntoRefine](https://graphdb.ontotext.com/documentation/9.5/standard/loading-data-using-ontorefine.html).
@@ -116,4 +116,4 @@ La sintaxis [NQ](https://www.w3.org/TR/n-quads/) se usa para codificar [Named Gr
 
 ## Ejercicio 8
 
-Puedes usar el archivo `docker-compose.yml` como guía para crear un servidor Linked Data.
+Puedes usar el archivo `docker-compose.yml` como guía para crear un servidor Linked Data que se conecte a Blazegraph y  publique los datos via web.
