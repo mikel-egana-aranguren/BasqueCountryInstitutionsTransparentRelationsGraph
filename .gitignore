@@ -1,2 +1,16 @@
 *.jnl
 *.log
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/AGENCY.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/CALENDAR_DATES.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/CALENDAR.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/FEED_INFO.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/FREQUENCIES.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/ROUTES.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/SHAPES.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/STOP_TIMES.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/STOPS.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/data/TRIPS.csv
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/mapping.csv.ttl
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/GTFS-Madrid.nt
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/csv2rdf-morph-kgc-rdflib.py
+EjercicioTransformacionRDF/morph-kgc/GTFS-Madrid-CSV-Example/config.ini

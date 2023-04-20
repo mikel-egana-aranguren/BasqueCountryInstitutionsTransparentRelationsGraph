@@ -1,0 +1,29 @@
+digraph {
+  charset="utf-8";
+
+  // Edges
+  "Rhttps://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi" -> "Rhttps://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l" [label=""];
+  "Rhttps://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi" -> "LAsier Atutxa Zalduegi" [label=""];
+  "Rhttps://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi" -> "LAsier Atutxa Zalduegi" [label="rdfs:label"];
+  "Rhttps://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi" -> L [label=""];
+  "Rhttps://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi" -> "Rhttps://schema.org/Person" [label="rdf:type"];
+  "Rhttps://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l" -> "Rhttps://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos" [label=""];
+  "Rhttps://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l" -> "Rhttps://data.ehu.eus/bcitr/company/5466" [label=""];
+  "Rhttps://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l" -> L [label=""];
+  "Rhttps://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l" -> L [label=""];
+  "Rhttps://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l" -> "Rhttp://ehu.eus/tro#Manager" [label="rdf:type"];
+  "Rhttps://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos" -> "Lhttps://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos" [label=""];
+  "Rhttps://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos" -> "Rhttps://schema.org/NewsArticle" [label="rdf:type"];
+
+  // Nodes
+  L [label="",shape=record];
+  "LAsier Atutxa Zalduegi" [label="Asier Atutxa Zalduegi",shape=record];
+  "Lhttps://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos" [label="https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos",shape=record];
+  "Rhttp://ehu.eus/tro#Manager" [URL="http://ehu.eus/tro#Manager",label="http://ehu.eus/tro#Manager",shape=ellipse,color=blue];
+  "Rhttps://data.ehu.eus/bcitr/company/5466" [URL="https://data.ehu.eus/bcitr/company/5466",label="https://data.ehu.eus/bcitr/company/5466",shape=ellipse,color=blue];
+  "Rhttps://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi" [URL="https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi",label="https://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi",shape=ellipse,color=blue];
+  "Rhttps://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l" [URL="https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l",label="https://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l",shape=ellipse,color=blue];
+  "Rhttps://schema.org/NewsArticle" [URL="https://schema.org/NewsArticle",label="https://schema.org/NewsArticle",shape=ellipse,color=blue];
+  "Rhttps://schema.org/Person" [URL="https://schema.org/Person",label="https://schema.org/Person",shape=ellipse,color=blue];
+  "Rhttps://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos" [URL="https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos",label="https://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos",shape=ellipse,color=blue];
+}
