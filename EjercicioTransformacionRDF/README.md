@@ -51,7 +51,7 @@ WHERE {
 }
 ```
 
-Y debería devolver los mismos datos.
+Y debería devolver los mismos datos (Esa consulta devuelve todos los triples de un grafo).
 
 ### Manual (Recomendado)
 
