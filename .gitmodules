@@ -1,0 +1,3 @@
+[submodule "EjercicioTransformacionRDF/morph-kgc/morph-kgc"]
+	path = EjercicioTransformacionRDF/morph-kgc/morph-kgc
+	url = https://github.com/morph-kgc/morph-kgc
