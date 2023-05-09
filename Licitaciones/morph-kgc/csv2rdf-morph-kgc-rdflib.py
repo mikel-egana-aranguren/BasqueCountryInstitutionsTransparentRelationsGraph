@@ -3,6 +3,6 @@ import rdflib
 
 graph = morph_kgc.materialize('config.ini')
 
-graph.serialize(destination='ej1.nt', format='ntriples', encoding="utf-8")
+graph.serialize(destination='licitaciones_euskadi.nt', format='ntriples', encoding="utf-8")
 
 
