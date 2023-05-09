@@ -26,7 +26,7 @@
 :map_licitaciones_contratos rr:predicateObjectMap :pom_url.
 :map_licitaciones_contratos rr:predicateObjectMap :pom_concepto.
 :map_licitaciones_contratos rr:predicateObjectMap :pom_expediente.
-# :map_licitaciones_contratos rr:predicateObjectMap :pom_lanbide.
+:map_licitaciones_contratos rr:predicateObjectMap :pom_adjudicatario.
 
 :source_licitaciones a rml:LogicalSource;
     rml:source "licitaciones_euskadi_5.csv";
@@ -71,15 +71,26 @@
     rml:reference "expediente";
     rr:termType rr:Literal.
 
-# Este no funciona, no se por que
+:pom_adjudicatario a rr:PredicateObjectMap.
+:pom_adjudicatario rr:predicateMap :pm_adjudicatario.
+:pom_adjudicatario rr:objectMap :om_adjudicatario.
+:pm_adjudicatario a rr:PredicateMap.
+:pm_adjudicatario rr:constant epo:bindsContractor.
+:om_adjudicatario a rr:ObjectMap;
+    rr:template "https://data.ehu.eus/bcitr/company/{adjudicatario}";
+    rr:termType rr:IRI.
 
-# :pom_lanbide a rr:PredicateObjectMap.
-# :pom_lanbide rr:predicateMap :pm_lanbide.
-# :pom_lanbide rr:objectMap :om_lanbide.
-# :pm_lanbide a rr:PredicateMap.
-# :pm_lanbide rr:constant "https://dbpedia.org/prop/has_position".
-# :om_lanbide a rr:ObjectMap;
-#     rr:template "https://data.ehu.eus/profesion/{trabajo}";
-#     rr:termType rr:IRI.
+
+
+# http://data.europa.eu/a4g/ontology#Awarder
+# http://data.europa.eu/a4g/ontology#BudgetProvider
+
+
+# http://data.europa.eu/a4g/ontology#hasPrizeValue
+# http://data.europa.eu/a4g/ontology#hasTimePeriod
+# http://data.europa.eu/a4g/ontology#hasPlannedPeriod
+# http://data.europa.eu/a4g/ontology#hasPaymentValue
+# http://data.europa.eu/a4g/ontology#hasBuyerItemID
+
 
 
