@@ -24,12 +24,12 @@
 :map_licitaciones_contratos rr:subjectMap :s_contratos.
 :map_licitaciones_contratos rr:predicateObjectMap :pom_contratos.
 :map_licitaciones_contratos rr:predicateObjectMap :pom_url.
-
-# :map_licitaciones_contratos rr:predicateObjectMap :pom_edad.
+:map_licitaciones_contratos rr:predicateObjectMap :pom_concepto.
+:map_licitaciones_contratos rr:predicateObjectMap :pom_expediente.
 # :map_licitaciones_contratos rr:predicateObjectMap :pom_lanbide.
 
 :source_licitaciones a rml:LogicalSource;
-    rml:source "licitaciones_euskadi_4.csv";
+    rml:source "licitaciones_euskadi_5.csv";
     rml:referenceFormulation ql:CSV.
 
 :s_contratos rr:template "https://data.ehu.eus/contract/{codigo_cpv}".    
@@ -52,15 +52,24 @@
     rml:reference "url";
     rr:termType rr:Literal.
 
-# :pom_edad a rr:PredicateObjectMap.
-# :pom_edad rr:predicateMap :pm_edad.
-# :pom_edad rr:objectMap :om_edad.
-# :pm_edad a rr:PredicateMap.
-# :pm_edad rr:constant <https://data.ehu.eus/prop/edad>.
-# :om_edad a rr:ObjectMap;
-#     rml:reference "edad";
-#     rr:termType rr:Literal;
-#     rr:datatype xsd:integer.
+:pom_concepto a rr:PredicateObjectMap.
+:pom_concepto rr:predicateMap :pm_concepto.
+:pom_concepto rr:objectMap :om_concepto.
+:pm_concepto a rr:PredicateMap.
+:pm_concepto rr:constant rdfs:comment.
+:om_concepto a rr:ObjectMap;
+    rml:reference "concepto";
+    rr:termType rr:Literal;
+    rr:language "es".
+
+:pom_expediente a rr:PredicateObjectMap.
+:pom_expediente rr:predicateMap :pm_expediente.
+:pom_expediente rr:objectMap :om_expediente.
+:pm_expediente a rr:PredicateMap.
+:pm_expediente rr:constant schema:identifier.
+:om_expediente a rr:ObjectMap;
+    rml:reference "expediente";
+    rr:termType rr:Literal.
 
 # Este no funciona, no se por que
 
