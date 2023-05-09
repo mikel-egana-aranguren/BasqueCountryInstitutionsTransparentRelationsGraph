@@ -17,18 +17,19 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
 @prefix schema: <http://schema.org/>.
 @prefix dct: <http://purl.org/dc/terms/>.
+@prefix tro: <http://ehu.eus/tro#>.
 
 :map_licitaciones_contratos rml:logicalSource :source_licitaciones .
 
 :map_licitaciones_contratos rr:subjectMap :s_contratos.
 :map_licitaciones_contratos rr:predicateObjectMap :pom_contratos.
+:map_licitaciones_contratos rr:predicateObjectMap :pom_url.
 
-# :map_licitaciones_contratos rr:predicateObjectMap :pom_email.
 # :map_licitaciones_contratos rr:predicateObjectMap :pom_edad.
 # :map_licitaciones_contratos rr:predicateObjectMap :pom_lanbide.
 
 :source_licitaciones a rml:LogicalSource;
-    rml:source "licitaciones_euskadi.csv";
+    rml:source "licitaciones_euskadi_4.csv";
     rml:referenceFormulation ql:CSV.
 
 :s_contratos rr:template "https://data.ehu.eus/contract/{codigo_cpv}".    
@@ -42,14 +43,14 @@
     rr:constant epo:Contract;
     rr:termType rr:IRI.
 
-# :pom_email a rr:PredicateObjectMap.
-# :pom_email rr:predicateMap :pm_email.
-# :pom_email rr:objectMap :om_email.
-# :pm_email a rr:PredicateMap.
-# :pm_email rr:constant schema:email.
-# :om_email a rr:ObjectMap;
-#     rml:reference "email";
-#     rr:termType rr:Literal.
+:pom_url a rr:PredicateObjectMap.
+:pom_url rr:predicateMap :pm_url.
+:pom_url rr:objectMap :om_url.
+:pm_url a rr:PredicateMap.
+:pm_url rr:constant tro:url.
+:om_url a rr:ObjectMap;
+    rml:reference "url";
+    rr:termType rr:Literal.
 
 # :pom_edad a rr:PredicateObjectMap.
 # :pom_edad rr:predicateMap :pm_edad.

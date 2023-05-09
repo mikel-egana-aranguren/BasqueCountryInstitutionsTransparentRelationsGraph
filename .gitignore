@@ -2,3 +2,7 @@
 *.log
 Licitaciones/licitaciones_euskadi.csv
 Licitaciones/README.md
+Licitaciones/morph-kgc/licitaciones_euskadi_4.csv
+Licitaciones/morph-kgc/licitaciones_euskadi.nt
+Licitaciones/morph-kgc/morph_kgc
+.gitignore
