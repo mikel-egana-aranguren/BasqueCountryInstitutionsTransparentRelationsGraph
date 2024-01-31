@@ -1,3 +1,4 @@
 *.jnl
 *.log
-./oxigraph/data/*
+oxigraph/data/*
+

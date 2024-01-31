@@ -1,19 +1,15 @@
 version: "3"
 services:
    linked_data_server:
-      image: ghcr.io/zazuko/trifid:latest
-      environment:
-         - SPARQL_ENDPOINT_URL=
-         - DATASET_BASE_URL
+      image: ghcr.io/zazuko/trifid:v4.1.1
       ports:
          - "8080:8080"
-  #  links:
-  #    - db
-  #  volumes:
-  #    - ./app:/var/www/html/
+      environment:
+         SPARQL_ENDPOINT_URL: "http://sparql_endpoint:7878/query"
+         DATASET_BASE_URL: "http://example.org/"
 
    sparql_endpoint:
-      image: ghcr.io/oxigraph/oxigraph:latest
+      image: ghcr.io/oxigraph/oxigraph:v0.3.22
       volumes:
          - ./oxigraph/data:/data
       ports:
@@ -21,12 +17,5 @@ services:
 
 
 
-
-
-#   environment:
-#     MYSQL_ROOT_PASSWORD: root
-#     MYSQL_USER: admin
-#     MYSQL_PASSWORD: test
-#     MYSQL_DATABASE: database
 
 
