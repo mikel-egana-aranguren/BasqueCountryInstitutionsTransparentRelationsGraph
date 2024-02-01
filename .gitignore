@@ -1,4 +1,1 @@
-*.jnl
-*.log
-oxigraph/data/*
-
+deployment/oxigraph/data/*
