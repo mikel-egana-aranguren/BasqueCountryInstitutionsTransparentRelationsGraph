@@ -1,0 +1,3 @@
+#<http://localhost:8080/data/person/amy-farrah-fowler> <http://schema.org/knows> <http://localhost:8080/data/person/mikel> .
+#<https://um.es/data/mikel> <https://schema.org/knows> <https://um.es/data/mikel> .
+<http://fair/data/amy-farrah-fowler> <http://schema.org/knows> <http://fair/data/mikel> .
