@@ -1,0 +1,25 @@
+<https://data.ehu.eus/contract/33695000-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/a4g/ontology#Contract> .
+<https://data.ehu.eus/contract/50312610-4> <http://www.w3.org/2000/01/rdf-schema#comment> "MANTENIMIENTO DE LOS SERVIDORES Y LA S.A.N. PARA 2014"@es .
+<https://data.ehu.eus/contract/50312610-4> <http://data.europa.eu/a4g/ontology#bindsContractor> <https://data.ehu.eus/bcitr/company/HEWLETT-PACKARD%20ESPA%C3%91OLA%2C%20S.L.> .
+<https://data.ehu.eus/contract/79710000-4> <http://schema.org/identifier> "E-003/2012329_00000000000000000000001" .
+<https://data.ehu.eus/contract/72590000-7> <http://ehu.eus/tro#url> "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaContrato/detalle/1" .
+<https://data.ehu.eus/contract/79710000-4> <http://ehu.eus/tro#url> "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaContrato/detalle/3" .
+<https://data.ehu.eus/contract/71242000-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/a4g/ontology#Contract> .
+<https://data.ehu.eus/contract/79710000-4> <http://data.europa.eu/a4g/ontology#bindsContractor> <https://data.ehu.eus/bcitr/company/GARDA%20SERVICIOS%20DE%20SEGURIDAD%2C%20S.A.> .
+<https://data.ehu.eus/contract/50312610-4> <http://schema.org/identifier> "03/2014335_00000000000000000000001" .
+<https://data.ehu.eus/contract/72590000-7> <http://www.w3.org/2000/01/rdf-schema#comment> "Servicio de soporte al sistema informático"@es .
+<https://data.ehu.eus/contract/33695000-8> <http://ehu.eus/tro#url> "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaContrato/detalle/4" .
+<https://data.ehu.eus/contract/72590000-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/a4g/ontology#Contract> .
+<https://data.ehu.eus/contract/79710000-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/a4g/ontology#Contract> .
+<https://data.ehu.eus/contract/71242000-6> <http://data.europa.eu/a4g/ontology#bindsContractor> <https://data.ehu.eus/bcitr/company/ARKIGEST%20ESTUDIOA%20S.L.> .
+<https://data.ehu.eus/contract/72590000-7> <http://schema.org/identifier> "019/13334_00000000000000000000001" .
+<https://data.ehu.eus/contract/71242000-6> <http://ehu.eus/tro#url> "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaContrato/detalle/34286" .
+<https://data.ehu.eus/contract/72590000-7> <http://data.europa.eu/a4g/ontology#bindsContractor> <https://data.ehu.eus/bcitr/company/SUMINISTROS%2C%20IMPORTACIONES%20Y%20MANTENIMIENTOS%20ELECTR%C3%93NICOS%2C%20S.A.> .
+<https://data.ehu.eus/contract/79710000-4> <http://www.w3.org/2000/01/rdf-schema#comment> "Vigilancia y seguridad en centros de menores, palacios de Justicia, centros dependientes del Departamento de Justicia y Administración Pública y sede del Departamento de Interior en Erandio (Bizkaia)"@es .
+<https://data.ehu.eus/contract/33695000-8> <http://data.europa.eu/a4g/ontology#bindsContractor> <https://data.ehu.eus/bcitr/company/MICROGENICS%20GMBH%20SUCURSAL%20EN%20ESPA%C3%91A> .
+<https://data.ehu.eus/contract/50312610-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/a4g/ontology#Contract> .
+<https://data.ehu.eus/contract/33695000-8> <http://schema.org/identifier> "20/2013-SC330_00000000000000000000001" .
+<https://data.ehu.eus/contract/71242000-6> <http://www.w3.org/2000/01/rdf-schema#comment> "Servicio de redacción de los proyectos de reurbanización de las calles Harategi y Vitoria"@es .
+<https://data.ehu.eus/contract/33695000-8> <http://www.w3.org/2000/01/rdf-schema#comment> "Adquisición de reactivos para el cribado de drogas de abuso en orinas por inmunoanálisis"@es .
+<https://data.ehu.eus/contract/50312610-4> <http://ehu.eus/tro#url> "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/busquedaContrato/detalle/2" .
+<https://data.ehu.eus/contract/71242000-6> <http://schema.org/identifier> "060/2018694_00000000000000000000001" .
