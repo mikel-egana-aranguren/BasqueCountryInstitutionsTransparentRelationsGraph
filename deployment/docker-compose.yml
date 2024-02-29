@@ -1,19 +1,26 @@
 version: "3"
 services:
-   linked_data_server:
-      image: ghcr.io/zazuko/trifid:v4.1.1
-      ports:
-         - "8080:8080"
-      environment:
-         SPARQL_ENDPOINT_URL: "http://sparql_endpoint:7878/query"
-         DATASET_BASE_URL: "http://example.org/"
+   # linked_data_server:
+   #    image: ghcr.io/zazuko/trifid:v4.1.1
+   #    ports:
+   #       - "8080:8080"
+   #    environment:
+   #       SPARQL_ENDPOINT_URL: "http://sparql_endpoint:7878/query"
+   #       DATASET_BASE_URL: "http://example.org/"
+
+   # sparql_endpoint:
+   #    image: ghcr.io/oxigraph/oxigraph:v0.3.22
+   #    volumes:
+   #       - ./oxigraph/data:/data
+   #    ports:
+   #       - "7878:7878"
 
    sparql_endpoint:
-      image: ghcr.io/oxigraph/oxigraph:v0.3.22
-      volumes:
-         - ./oxigraph/data:/data
+      image: graphdb-free-9.7.0
       ports:
-         - "7878:7878"
+         - "7200:7200"
+      volumes:
+         - ./graphdb-data:/data
 
 
 
