@@ -10,16 +10,16 @@ services:
    #       GDB_JAVA_OPTS: >-
    #          -Dgraphdb.workbench.cors.enable=true
 
-   # web_server:
-   #    image: php:7.2.2-apache
-   #    ports:
-   #       - "80:80"
-   #    volumes:
-   #       - ./web:/var/www/html/
-   #    links:
-   #       - sparql_endpoint
+   web:
+      image: php:7.2.2-apache
+      ports:
+         - "80:80"
+      volumes:
+         - ./web:/var/www/html/
+      links:
+         - sparql_endpoint
 
-   trifid:
+   linked_data_server:
       image: ghcr.io/zazuko/trifid:v5.0.1
       ports:
          - "8080:8080"
