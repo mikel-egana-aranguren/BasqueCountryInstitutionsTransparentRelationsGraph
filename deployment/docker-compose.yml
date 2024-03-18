@@ -1,32 +1,12 @@
 version: "3"
 services:
-   # sparql_endpoint: # http://localhost:7200/repositories/bcitrg
-   #    image: ontotext/graphdb:10.6.1
-   #    ports:
-   #       - "7200:7200"
-   #    volumes:
-   #       - ./graphdb-data:/data
-   #    environment: 
-   #       GDB_JAVA_OPTS: >-
-   #          -Dgraphdb.workbench.cors.enable=true
-
-   web:
-      image: php:7.2.2-apache
-      ports:
-         - "80:80"
-      volumes:
-         - ./web:/var/www/html/
-      links:
-         - sparql_endpoint
-
    linked_data_server:
       image: ghcr.io/zazuko/trifid:v5.0.1
       ports:
-         - "8080:8080"
+         - "80:8080"
       environment:
          SPARQL_ENDPOINT_URL: "http://sparql_endpoint:7878/query?rewrite=true"
-         DATASET_BASE_URL: "http://fair/data/"
-   
+         DATASET_BASE_URL: "http://data.ehu.eus/"
    sparql_endpoint:
       image: ghcr.io/oxigraph/oxigraph:v0.3.22
       volumes:

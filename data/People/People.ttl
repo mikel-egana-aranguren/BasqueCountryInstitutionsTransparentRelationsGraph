@@ -1,0 +1,13 @@
+<http://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://ehu.eus/tro#has_role> <http://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l>  .
+<http://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#with_evidence> <http://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos>  .
+<http://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/ns/person#name> "Asier Atutxa Zalduegi"  .
+<http://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/2000/01/rdf-schema#label> "Asier Atutxa Zalduegi"  .
+<http://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://ehu.eus/tro#profile_url> ""  .
+<http://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#in_entity> <http://data.ehu.eus/bcitr/company/5466>  .
+<http://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#end_date> ""  .
+<http://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos> <http://ehu.eus/tro#url> "http://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos"  .
+<http://data.ehu.eus/bcitr/person/asier-atutxa-zalduegi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person>  .
+<http://www.elsaltodiario.com/pnv/asier-e-iskander-atutxa-empresas-y-contratos-publicos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/NewsArticle>  .
+<http://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://ehu.eus/tro#start_date> ""  .
+<http://data.ehu.eus/bcitr/role/asier-atutxa-zalduegi-manager---arkigest-estudioa-s-l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ehu.eus/tro#Manager>  .
+
